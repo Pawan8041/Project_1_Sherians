@@ -9,15 +9,12 @@ html,body{
  width: 100%;
  height: 100%;
 }
-
-
 #main{
     width: 100%;
 }
-
 #hero{
-    color:cornsilk;
-    width: 100;
+    color:rgb(245, 242, 229);
+    width: 100%;
     height: 100vh;
     background-color: black;
 }
@@ -26,20 +23,174 @@ html,body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 40px;
-    color: aliceblue;
+    padding: 35px 40px;
+    color: rgb(244, 244, 244);
 }
+
 
 #nav a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color:white;
+}
+
+#main_heading{
+    margin-top: 90px;
 }
 
 
 #main_heading h1{
-  font-size: 9vw;
+  margin-left: 20px;
+  font-size: 9.5;
+  opacity: 0.6;
+  padding-left: 30px;
+  font-size: 10vw;
   font-family: "General Sans Medium";
   font-weight:850;
   line-height: 1;
 }
+
+#main_heading #Second_h1{
+    margin-left: 176px; 
+}
+.blocktext{
+    margin-top: -2vw;
+    width: fit-content;
+}
+.blocktext h6{
+    color: aliceblue;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#chotiheading{
+    margin-top: 155px;
+    padding-right: 30px;
+}
+
+#chotiheading h6{
+    color: aliceblue;
+    font-size: 1.3vw;
+    margin-top: .2vw;
+    text-align: right;
+}
+
+#Hero_Footer{
+    padding-left: 35px;
+    font-family: "General Sans Medium";
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 35px ;
+}
+
+#Hero_Footer a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color:white;
+}
+
+#Hero_Footer #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#Hero_Footer .circle{
+display: flex;
+text-align: center;
+height: 20px;
+width: 20px;
+background-color: rgb(201, 198, 198);
+border-radius: 50%;
+}
+
+
+#second{
+    padding-top: 130px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+
+.elem{
+
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.elem #HinduHead{
+    font-family: "General Sans Medium";
+    color: rgb(245, 242, 229);
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 3vw;
+}
+
+.elem #SikhHead{
+    font-family: "General Sans Medium";
+    color: rgb(245, 242, 229);
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    font-size: 3vw;
+}
+
+#elem_last{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.elem #ChristianityHead{
+    font-family: "General Sans Medium";
+    color: rgb(245, 242, 229);
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#third{
+
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
