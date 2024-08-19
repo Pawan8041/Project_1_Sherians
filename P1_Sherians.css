@@ -10,8 +10,20 @@ html,body{
  width: 100%;
  height: 100%;
 }
+
+#minicircle{
+height: 10px;
+width: 10px;
+position: absolute;
+border-radius: 50%;
+background-color: aliceblue; 
+z-index: 99999;   
+}
+
+
 #main{
     width: 100%;
+    background-color: black;
 }
 #hero{
     color:rgb(245, 242, 229);
@@ -20,9 +32,9 @@ html,body{
     background-color: black;
 }
 #nav{
+
     top: 0; /* This ensures the nav sticks to the top */
     background-color: black;
-    position: sticky;
     z-index: 99;
     display: flex;
     align-items: center;
@@ -33,6 +45,7 @@ html,body{
 
 }
 #nav a{
+    position:sticky;
     text-decoration: none;
     font-size: 20px;
     color:white;
@@ -73,7 +86,7 @@ html,body{
     margin-top: .2vw;
     text-align: right;
 }
-
+ 
 #Hero_Footer{
     padding-left: 35px;
     font-family: "General Sans Medium";
@@ -163,24 +176,14 @@ border-radius: 50%;
     width: 100%;
     background-color: black;
     padding-left: 40px;
-    padding-right: 150px;
 }
-
-
-
-
-
-
-
-
-
 
 #desc{
     display: flex;
-    gap: 80 px;
     justify-content: space-between;
-    padding-left: 40vw;
+    padding-left: 35vw;
     line-height: 1.5;
+    padding-right: 150px;
 }
 
 /* #profile_pic{
@@ -195,13 +198,6 @@ border-radius: 50%;
     border-radius: 50%;
 }
 
-
-
-
-
-#profile_desc_lets_talk{
-}
-
 /* Lets Talk */
 #profile_desc_lets_talk a{
     color: white;
@@ -213,15 +209,12 @@ border-radius: 50%;
 
 }
 
-
-
 #profile_desc{
     font-family: "General Sans Medium";
     color: white;
     font-size: 1.3vw;
-    width: 30rem;
+    width: 32rem;
 }
-
 
 /* About ME */
 #profile_desc h5{
@@ -233,52 +226,59 @@ font-weight: lighter;
 padding-bottom: 20px;
 }
 
-
-
 #footer{
     font-family: "General Sans Medium";
-    padding-top: 100px;
+    padding-top: 50px;
 }
-#footer h5{
+
+#instagram h5{
     font-family: "General Sans Medium";
     opacity: 0.6;
     font-weight: lighter;
+    font-size: 1vw;
 }
 
 
-#footer a{
-    color: white;
+#instagram a{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
     text-decoration: none;
-
+    font-size: 1.2vw;
+    font-weight: bolder;
 }
 
 
 
 
 
+#footer_last{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_left{
+    width: 15%;
+    justify-content: space-between;
+    padding-top: 180px;
+    display: flex;
+}
+
+#footer_right{
+    padding-right: 40px;
+    color: rgb(241, 240, 236);
+    padding-top: 180px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+   
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#footer_right a{
+    font-family: "General Sans Medium";
+    text-decoration: none;
+    color: rgb(241, 240, 236);
+}
