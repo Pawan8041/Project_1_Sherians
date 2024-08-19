@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+}
+
+html,body{
+ scroll-behavior: smooth;
+ width: 100%;
+ height: 100%;
+}
+
+#minicircle{
+height: 10px;
+width: 10px;
+position: absolute;
+border-radius: 50%;
+background-color: aliceblue; 
+z-index: 99999;   
+}
+
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hero{
+    color:rgb(245, 242, 229);
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#nav{
+
+    top: 0; /* This ensures the nav sticks to the top */
+    background-color: black;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px 40px;
+    color: rgb(244, 244, 244);
+
+}
+#nav a{
+    position:sticky;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+#main_heading{
+    padding-top: 100px;
+}
+#main_heading h1{
+  margin-left: 20px;
+  opacity: 0.6;
+  padding-left: 30px;
+  font-size: 11vw;
+  font-family: "General Sans Medium";
+  font-weight:850;
+  line-height: 1;
+}
+#main_heading #Second_h1{
+    margin-left: 176px; 
+}
+.blocktext{
+    margin-top: -2vw;
+    width: fit-content;
+}
+.blocktext h6{
+    color: aliceblue;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#chotiheading{
+    margin-top: 155px;
+    padding-right: 30px;
+}
+
+#chotiheading h6{
+    color: aliceblue;
+    font-size: 1.3vw;
+    margin-top: .2vw;
+    text-align: right;
+}
+ 
+#Hero_Footer{
+    padding-left: 35px;
+    font-family: "General Sans Medium";
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 35px ;
+}
+
+#Hero_Footer a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color:white;
+}
+
+#Hero_Footer #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#Hero_Footer .circle{
+display: flex;
+text-align: center;
+height: 20px;
+width: 20px;
+background-color: rgb(201, 198, 198);
+border-radius: 50%;
+}
+
+#second{
+    padding-top: 130px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+
+.elem{
+    position: relative;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.elem #HinduHead{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 4vw;
+}
+
+.elem #SikhHead{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    font-size: 4vw;
+}
+
+.elem #ChristianityHead{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    font-size: 4vw;
+    border-bottom: 1px solid  rgb(241, 240, 236);
+}
+.elem img{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    height: 120%;
+    width: 15%;
+}
+#about{
+    color: aliceblue;
+    padding-top: 200px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-left: 40px;
+}
+
+#desc{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35vw;
+    line-height: 1.5;
+    padding-right: 150px;
+}
+
+/* #profile_pic{
+    padding-top: 20px;
+    position: relative;
+} */
+
+/* Image */
+#profile_pic img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Lets Talk */
+#profile_desc_lets_talk a{
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1.1vw;
+
+}
+
+#profile_desc{
+    font-family: "General Sans Medium";
+    color: white;
+    font-size: 1.3vw;
+    width: 32rem;
+}
+
+/* About ME */
+#profile_desc h5{
+opacity: 0.6;
+font-weight: lighter;
+}
+
+#profile_desc p{
+padding-bottom: 20px;
+}
+
+#footer{
+    font-family: "General Sans Medium";
+    padding-top: 50px;
+}
+
+#instagram h5{
+    font-family: "General Sans Medium";
+    opacity: 0.6;
+    font-weight: lighter;
+    font-size: 1vw;
+}
+
+
+#instagram a{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+
+
+
+
+#footer_last{
+    font-family: "General Sans Medium";
+    color: rgb(241, 240, 236);
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_left{
+    width: 15%;
+    justify-content: space-between;
+    padding-top: 180px;
+    display: flex;
+}
+
+#footer_right{
+    padding-right: 40px;
+    color: rgb(241, 240, 236);
+    padding-top: 180px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+#footer_right a{
+    font-family: "General Sans Medium";
+    text-decoration: none;
+    color: rgb(241, 240, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
